@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         if (etBaseAmount.text.isEmpty()) {
             tvTipAmount.text = ""
             tvTotalAmount.text = ""
+
             return
         }
         // 1. Get the value of the base and tip percent
